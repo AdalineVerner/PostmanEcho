@@ -12,7 +12,7 @@ public class PostmanEchoTest {
 
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Postmen")
+                .body("Postman")
                 .when()
                 .post("/post")
                 .then()
